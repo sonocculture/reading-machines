@@ -1,4 +1,4 @@
-baseURL: "https://sonocculture.com/reading-machines/"
+baseURL: "https://reading-machines.sonocculture.com/"
 languageCode: en-gb
 title: Reading Machines
 theme: PaperMod
@@ -19,7 +19,7 @@ params:
   homeInfoParams:
     Title: "Reading Machines"
     Content: >
-      A fortnightly reading group exploring sound, technology, and occulture.
+      A fortnightly reading group in londonon.
       Readings listed below in reverse chronological order.
   socialIcons: []
 
