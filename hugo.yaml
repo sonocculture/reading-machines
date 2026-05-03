@@ -16,7 +16,7 @@ params:
   ShowCodeCopyButtons: false
   ShowToc: false
   label:
-    text: "Home"
+    text: "My Computer"
   homeInfoParams:
     Title: "Reading Machines"
     Content: >
