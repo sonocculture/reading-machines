@@ -1,0 +1,36 @@
+baseURL: "https://sonocculture.com/reading-machines/"
+languageCode: en-gb
+title: Reading Machines
+theme: PaperMod
+
+paginate: 20
+
+params:
+  defaultTheme: auto        # auto = follows system preference; user can toggle
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowToc: false
+  label:
+    text: "Reading Machines"
+  homeInfoParams:
+    Title: "Reading Machines"
+    Content: >
+      A fortnightly reading group exploring sound, technology, and occulture.
+      Readings listed below in reverse chronological order.
+  socialIcons: []
+
+menu:
+  main:
+    - name: Archive
+      url: /reading-machines/readings/
+      weight: 1
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
