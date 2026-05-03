@@ -3,7 +3,8 @@ languageCode: en-gb
 title: Reading Machines
 theme: PaperMod
 
-paginate: 20
+pagination:
+  pagerSize: 20
 
 params:
   defaultTheme: auto        # auto = follows system preference; user can toggle
