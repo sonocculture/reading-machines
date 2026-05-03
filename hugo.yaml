@@ -24,11 +24,11 @@ params:
       Readings listed below in reverse chronological order.
   socialIcons: []
 
-menu:
-  main:
-    - name: Archive
-      url: /reading-machines/readings/
-      weight: 1
+# menu:
+#  main:
+#    - name: Archive
+#      url: /reading-machines/readings/
+#      weight: 1
 
 outputs:
   home:
