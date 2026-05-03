@@ -16,9 +16,9 @@ params:
   ShowCodeCopyButtons: false
   ShowToc: false
   label:
-    text: "Texts"
+    text: "Home"
   homeInfoParams:
-    Title: "Texts"
+    Title: "Reading Machines"
     Content: >
       A fortnightly reading group in londonon.
       Readings listed below in reverse chronological order.
