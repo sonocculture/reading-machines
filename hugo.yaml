@@ -6,6 +6,8 @@ theme: PaperMod
 pagination:
   pagerSize: 20
 
+buildFuture: true
+
 params:
   defaultTheme: auto        # auto = follows system preference; user can toggle
   disableThemeToggle: false
