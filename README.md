@@ -65,23 +65,3 @@ The site is deployed via **GitHub Pages** using the workflow in `.github/workflo
 2. Under *Source*, select **GitHub Actions**
 3. Under **Settings → Actions → General**, ensure *Workflow permissions* is set to **Read and write**
 4. Push to `main` — the action will run and publish the site
-
-### Custom domain
-
-In **Settings → Pages → Custom domain**, enter `sonocculture.com` and enable *Enforce HTTPS*.
-
-Add these DNS records at your registrar:
-
-| Type  | Name | Value |
-|-------|------|-------|
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-| CNAME | www | sonocculture.github.io |
-
----
-
-## Light / dark mode
-
-PaperMod follows the visitor's system preference by default (`defaultTheme: auto` in `hugo.yaml`). A toggle button in the top-right corner lets them switch manually.
